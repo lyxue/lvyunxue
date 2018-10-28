@@ -1,0 +1,38 @@
+.xieyi{
+	width: 334px;
+	height: 91px;
+}
+#bigBox .top .smallBox .box_r .jieguo{
+	display: inline-block;
+	width: 115px;
+	height: 27px;
+	color: red;
+	line-height: 27px;
+	font-weight: bold;
+	position: absolute;
+	top: 108px;
+	left: 247px;
+}
+#bigBox .top .smallBox .box_r .yanzhengma{
+	display: inline-block;
+	width: 115px;
+	height: 27px;
+	color: red;
+	font-weight: bold;
+	line-height: 27px;
+	position: absolute;
+	top: 205px;
+	left: 164px;
+}
+#bigBox .top .smallBox .box_r .zhucehao{
+	display: inline-block;
+	width: 255px;
+	height: 27px;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	line-height: 27px;
+	position: absolute;
+	top: 286px;
+	left: 72px;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/car.css" />
+		<script type="text/javascript" src="../lib/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="../lib/jquery.cookie.js"></script>
+		<script type="text/javascript" src="../js/all.js"></script>
+		<script type="text/javascript" src="../js/car.js"></script>
+	</head>
+
+	<body>
+		<div id="Outletinbox">S
+			<div id="top_nav">
+				<div class="content">
+					<ul class="fr f0">
+						<li>你好，
+							<a href="login.html">请先登录</a>
+						</li>
+						<li>
+							<a href="zhuce.html">免费注册</a>
+						</li>
+						<li><span>商家入驻</span></li>
+						<li><span>贝贝商家中心</span><i></i></li>
+						<li><span>帮助中心</span><i></i></li>
+						<li><span>关注</span> <i></i></li>
+					</ul>
+				</div>
+			</div>
+			<div id="header">
+				<div class="content">
+					<div class="log fl"><a href="../index.html"><img src="../css/img/log.png" /></a></div>
+					<div class="homeCar fr">
+						<a href="#" class="top_car">
+							<img src="../css/img/topcar.png" />
+						</a>
+						<ul class="homeCar_1">
+							<li>
+								<a href="#">
+									<img src="../css/img/y1.png" />
+									<div class="carimg">
+										<p>环保局上档次你十多年行业是大V</p>
+										<span>颜色：尺寸：</span>
+									</div>
+								</a>
+								<div class="jiage">
+									<p class="jia">￥29.00</p>
+									<span>X4</span>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../css/img/y1.png" />
+									<div class="carimg">
+										<p>环保局上档次你十多年行业是大V</p>
+										<span>颜色：尺寸：</span>
+									</div>
+								</a>
+								<div class="jiage">
+									<p class="jia">￥29.00</p>
+									<span>X4</span>
+								</div>
+							</li>
+							<a href="#" style="display: block;height: 38px;border-bottom: 1px solid;text-align: center;line-height: 38px;color: #AAAAAA;">查看全部</a>
+							<span style="display: inline-block;padding-left: 16px;height: 31px;margin-top: 11px;">小计：<span>￥</span></span>
+							<a href="#" class="fr" style="padding-right: 15px;" title="购物车"><img src="../css/img/gocar.png" /></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="main">
+				<div class="cont">
+					<h1><img src="../css/img/gouwuche.png"/></h1>
+					<div class="cont2">
+						<table border="" cellspacing="" cellpadding="">
+							<thead>
+								<tr>
+									<th style="text-align: left;padding-left: 10px;width: 100px;">
+										<input type="checkbox" name="" id="" value="" />全选
+									</th>
+									<th style="text-align: left;">商品</th>
+									<th>商品信息</th>
+									<th>单价(元)</th>
+									<th>数量</th>
+									<th style="text-align: right;width: 120px;padding-right:30px;">小计(元)</th>
+									<th style="text-align: left;padding-left: 50px;width: 115px;">操作</th>
+								</tr>
+							</thead>
+						</table>
+						<div class="centerB">
+							<div class="shang">
+								<input type="checkbox" />巴布豆品牌特惠
+							</div>
+							<!--===================================================================================-->
+							<!--<div class="zhong">-->
+							<!--<input type="checkbox"/>
+							
+							<div class="ct1">
+								<img src="../css/img/lunl4.png"/>
+							</div>
+							
+							<div class="ct2">
+								<a href="#">巴布豆/BOBDOG棉鞋秋冬新款儿童运动鞋男童鞋女童保暖舒适休闲鞋加绒毛毛虫</a>
+							</div>
+							
+							<div class="ct3">
+								<span>黑色, 22码</span>
+							</div>
+							
+							<div class="ct4">
+								<span class="ct4_1">59.90</span>
+								<p class="ct4_2">168.00</p>
+							</div>
+							
+							<div class="ct5">
+								<ul>
+									<input type="button" class="jian" value="-" />
+									<input type="text" class="num" value="1" style="text-align: center;"/>
+									<input type="button" class="add" value="+" />
+								</ul>
+							</div>
+							
+							<div class="ct6">
+								<span>29.99</span>
+							</div>
+							
+							<div class="ct7">
+								<span><a href="#" style="color: #777777;">删除</a></span>
+							</div>-->
+
+							<!--</div>-->
+							<!--=====================================================================================-->
+							<!--<div class="xia">
+							<p>小计：<span>29.99</span></p>
+						</div>-->
+						</div>
+						<div class="di">
+							<ul>
+								<li><input type="checkbox" id="" value="" />全选<span style="padding-left:20px ;color: #777777;"><a href="javaScript:;" style="color: #777777;">删除</a></span></li>
+								<li style="padding-left: 324px;">共有<span style="color: #CA3C3C;" class="zongshangpin"></span>件商品，已优惠 <i style="color: #CA3C3C;" class="youhui"></i> 元，总计(不含运费)：<span style="color: #FF4975;font-size: 20px;" class="alltotal"></span></li>
+								<li class="zuihou" style="padding-left: 30px;"><input type="button" id="" value="确认订单" /></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bottom">
+				<div class="bt_c">
+					<div class="content">
+						<ul>
+							<li>
+								<a href="#"><span>首页</span>|</a>
+							</li>
+							<li>
+								<a href="#"><span>关于贝贝</span>|</a>
+							</li>
+							<li>
+								<a href="#"><span>商家入驻</span>|</a>
+							</li>
+							<li>
+								<a href="#"><span>正品保证</span>|</a>
+							</li>
+							<li>
+								<a href="#"><span>人才招聘</span>|</a>
+							</li>
+							<li>
+								<a href="#"><span>联系我们</span>|</a>
+							</li>
+							<li>
+								<a href="#"><span>帮助中心</span>|</a>
+							</li>
+							<li>
+								<a href="#"><span>友情链接</span>|</a>
+							</li>
+							<li>
+								<a href="#"><span>手机客户端</span>|</a>
+							</li>
+							<li>
+								<a href="#"><span>客服在线</span>|</a>
+							</li>
+							<li>
+								<a href="#"><span>贝贝公益</span>|</a>
+							</li>
+							<li>
+								<a href="#"><span>品质健康</span>| </a>
+							</li>
+							<li>
+								<a href="#"><span>育儿社区</span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="bt_t">
+					<div class="content">
+						<img src="../css/img/bt3.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

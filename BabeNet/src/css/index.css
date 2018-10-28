@@ -1,0 +1,251 @@
+/*============轮播图=================*/
+#main{
+	border-top:2px solid #FFFFFF ;
+	background: #FD6C7B;
+}
+#main .content{
+	height: 320px;
+}
+/*=======================================================*/
+/*#main .content .lunbol{
+	width: 830px;
+	height: 320px;
+	display: inline-block;
+	overflow: hidden;
+}*/
+
+/*=======================================================*/
+#main .content .lunbor{
+	background: #FEF7F8;
+	display: inline-block;
+}
+#main .content .lunbor ul{
+	width: 250px;
+	height: 318px;
+}
+#main .content .lunbor ul li{
+	width: 121px;
+	height: 156px;
+	display: inline-block;
+	vertical-align: bottom;
+	text-align: center;
+	line-height: 38px;
+	position: relative;
+}
+#main .content .lunbor ul li img{
+	max-width: 100px;
+	max-height: 100px;
+	margin-left: 11%;
+	margin-top: 21%;
+	display: block;
+}
+#main .content .lunbor ul li:nth-child(odd){
+	border-right:1px solid #DED7D8 ;
+	border-top: 1px solid #DED7D8;
+}
+#main .content .lunbor ul li:nth-child(even){
+	border-top: 1px solid #DED7D8;
+}
+#main .content .lunbor ul li i{
+	display: inline-block;
+	width: 45px;
+	height: 40px;
+	background: #FE647B;
+	border-radius: 50%;
+	position: absolute;
+	left: 72px;
+	top: 3px;
+	font-size: 4px;
+	text-align: center;
+    line-height: 38px;
+    color: #FEF7F8;
+}
+#main .content .lunbor ul li span{
+	color: #857E7E;
+}
+/*=================主页下面=====================*/
+#main .mainb{
+	height: 6812px;
+	background: #F9F9F9;
+	padding-bottom: 22px;
+}
+/*==================左边部分=====================*/
+#main .mainb .content .main_l{
+	width: 815px;
+	height: 6812px;
+	display: inline-block;
+}
+#main .mainb .content .main_l h1{
+	width: 817px;
+	height: 60px;
+	background: #F9F9F9;
+}
+#main .mainb .content .main_l ul li{
+	display: inline-block;
+	border: 1px solid #EDEDED;
+	vertical-align: bottom;
+	margin-right: 17px;
+	margin-bottom: 20px;
+}
+#main .mainb .content .main_l ul li:nth-child(3n){
+	margin-right: 0px;
+}
+#main .mainb .content .main_l ul li a{
+	display: inline-block;
+	width: 255px;
+	height: 331px;
+	vertical-align: bottom;
+	text-align: center;
+}
+#main .mainb .content .main_l ul li img{
+	width: 251px;
+	height: 253px;
+}
+#main .mainb .content .main_l ul li .zhuti{
+	width: 253px;
+	height: 76px;
+}
+#main .mainb .content .main_l .zhuti p{
+	width: 242px;
+	height: 26px;
+	padding-top: 13px;
+	font-size: 12px;
+	text-align: left;
+	color: #666666;
+	padding-left: 13px;
+}
+#main .mainb .content .main_l .zhuti .zhu1{
+	float: left;
+	padding-left: 13px;
+	font-size: 20px;
+	color: #FF5A69;
+}
+#main .mainb .content .main_l .zhuti .zhu2{
+	float: left;
+	padding-left: 13px;
+	padding-top: 6px;
+	font-size: 12px;
+	color: #999999;
+}
+#main .mainb .content .main_l .zhuti .zhu3{
+	float: right;
+	padding-right: 14px;
+	padding-top: 6px;
+	font-size: 12px;
+	color: #999999;
+}
+/*=================右边部分======================*/
+#main .mainb .content .main_r{
+	width: 247px;
+	display: inline-block;
+	position: relative;
+}
+#main .mainb .content .main_r h2{
+	width: 250px;
+	height: 60px;
+	background: #F9F9F9;
+}
+#main .mainb .content .main_r .tab1 ul{
+	border-bottom: 1px solid #DBDBDB;
+	
+}
+#main .mainb .content .main_r .tab1 ul li{
+	width: 57px;
+	height: 30px;
+	border-right: 1px solid #DBDBDB;
+	display: inline-block;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 0;
+}
+#main .mainb .content .main_r .tab1 ul li:hover{
+	border-bottom: none;
+	background: #FFFFFF;
+}
+#main .mainb .content .main_r .tab1 ul li:hover .remai ul li{
+	border-top:none;
+}
+#main .mainb .content .main_r .tab1 ul li:hover .remai{
+	display: block;
+}
+/*==============里边的=========================*/
+#main .mainb .content .main_r .tab1 .remai{
+	position: absolute;
+	left: 0;
+	top: 91px;
+	display: none;
+}
+#main .mainb .content .main_r .tab1 .remai ul li{
+	width:247px ;
+	height: 90px;
+	display: block;
+	border: 1px solid #F1F1F1;
+	background: #FFFFFF;
+	position:relative;
+	margin-bottom: 2px;
+}
+
+#main .mainb .content .main_r .tab1 .remai ul li:hover{
+	box-shadow: 0px 0px 2px 2px #ccc;
+}
+#main .mainb .content .main_r .tab1 .remai ul li a img{
+	width: 71px;
+	height: 69px;
+	vertical-align: bottom;
+	position: absolute;
+	left: 12px;
+	top: 10px;
+}
+#main .mainb .content .main_r .tab1 .remai ul li .carimg{
+	width: 146px;
+	height: 69px;
+	vertical-align: bottom;
+	position: absolute;
+	left: 89px;
+	top: 10px;
+	background: #FFFFFF;
+	text-align: left;
+}
+#main .mainb .content .main_r .tab1 .remai span{
+	display: inline-block;
+	height: 14px;
+	color: #FF9982;
+	font-size: 10px;
+	line-height:10px;	
+}
+#main .mainb .content .main_r .tab1 .remai .xiayige{
+	color: #A5A5A5;
+	text-decoration:line-through;
+}
+#main .mainb .content .main_r .tab1 .remai p{
+	color: #3E3E3E;
+	font-weight: bold;
+	font-size: 10px;
+	line-height:17px;
+}
+/*================显示更多=======================*/
+#main .maint{
+	background: #F9F9F9;
+}
+#main .maint .content{
+	height: 60px;
+	background: #FFFFFF;
+	text-align: center;
+	line-height: 60px;
+}
+#main .maint .content p{
+	display: inline-block;
+	font-size: 14px;
+	font-weight:bolder;
+}
+/*====================底图=======================*/
+#main .maint .tupian{
+	height: 198px;
+}
+/*===================底部===================*/
+#bottom{
+	background: #F1F1F1;
+}
+#bottom .content .bt_top{
+	height: 242px;
+}

@@ -1,0 +1,232 @@
+#main{background: #F2F4F6;padding-top: 20px;}
+#main .cont{
+	min-height: 470px;
+	background: #FEFEFE;
+}
+.cont2{
+	width: 1161px;
+	margin: 0 auto;
+}
+#main .cont h1{
+	height: 73px;
+	margin-bottom: 30px;
+}
+/*#main .cont .cont2{
+	height:198px;
+}*/
+#main .cont .cont2 thead tr{
+	height: 30px;
+	border: 1px solid #DDDDDD;
+	background: #F3F3F3;
+}
+#main .cont .cont2 thead{
+	margin-bottom: 15px;
+}
+#main .cont .cont2 thead tr th{
+	width: 181px;
+	border: 0;
+}
+.centerB{
+	min-height:212px ;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.centerB .shang{
+	height: 42px;
+	border: 1px solid #DDDDDD;
+	background: #F4F4F4;
+	line-height: 42px;
+	padding-left: 15px;
+}
+.centerB .shang input{
+	display: inline-block;
+}
+.centerB .zhong{
+	height: 102px;
+	padding-left: 71px;
+	padding-top: 12px;
+	position: relative;
+	border-right:1px solid #D8D8D8 ;
+	border-left:1px solid #D8D8D8 ;
+	border-bottom: 1px solid #D8D8D8;
+}
+.centerB .zhong input{
+	position: absolute;
+	top: 42px;
+	left: 48px;
+}
+.centerB .zhong .ct1{
+	width: 79px;
+	height: 78px;
+	display: inline-block;
+}
+.centerB .zhong .ct1 img{
+	width: 75px;
+	height: 74px;
+	border: 2px solid #DDDDDD;
+	vertical-align: bottom;
+}
+.centerB .zhong .ct2{
+	width:200px;
+	height: 78px;
+	display: inline-block;
+	position: relative;
+}
+.centerB .zhong .ct2 a{
+	padding-top: 5px;
+	display: inline-block;
+	height: 78px;
+	line-height: 20px;
+	color: #3E3E3E;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+.centerB .zhong .ct3{
+	width: 164px;
+	height: 78px;
+	display: inline-block;
+	position: relative;
+}
+.centerB .zhong .ct3 span{
+	padding-top: 5px;
+	position:absolute;
+	top: 0;
+	left: 26px;
+	color: #B79688;
+}
+.centerB .zhong .ct4{
+	width: 168px;
+	height: 78px;
+	display: inline-block;
+	position: relative;
+}
+.centerB .zhong .ct4 span{
+	display: block;
+	position:absolute;
+	top: 5px;
+	left:26px;
+	color: #000000;
+}
+.centerB .zhong .ct4 p{
+	display: block;
+	position:absolute;
+	top: 40px;
+	left: 25px;
+	text-decoration:line-through;
+}
+/*===================================================================*/
+.centerB .zhong .ct5{
+	width: 214px;
+	height: 78px;
+	display: inline-block;
+	position: relative;
+	top: 6px;
+	left: -6px;
+}
+.centerB .zhong .ct5 ul input{
+	width: 20px;
+	height: 21px;
+	border: 1px solid #CCCCCC;
+}
+.centerB .zhong .ct5 ul .jian{
+	position: absolute;
+	top: 0;
+	left: 23px;
+}
+.centerB .zhong .ct5 ul .num{
+	width: 45px;
+	height: 19px;
+	position: absolute;
+	top: 0;
+	left:43px;
+}
+.centerB .zhong .ct5 ul .add{
+	position: absolute;
+	top: 0;
+	left: 90px;
+}
+/*.centerB .zhong .ct5 li{
+	display: inline-block;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	position:absolute;
+}
+.centerB .zhong .ct5 li:nth-child(1){
+	top: 0;
+	width: 22px;
+	left:44px;
+	background: #E3E3E3;
+}
+.centerB .zhong .ct5 li:nth-child(2){
+	top: 0;
+	left: 68px;
+	width: 28px;
+}
+.centerB .zhong .ct5 li:nth-child(3){
+	top: 0;
+	left: 98px;
+	width: 22px;
+	background: #E3E3E3;
+}*/
+
+/*===================================================================*/
+.centerB .zhong .ct6{
+	width: 125px;
+	height: 78px;
+	display: inline-block;
+	position: relative;
+}
+.centerB .zhong .ct6 span{
+	position:absolute;
+	top: 11px;
+	left:8px;
+	color: #FF79B4;
+}
+.centerB .zhong .ct7{
+	width: 95px;
+	height: 78px;
+	display: inline-block;
+	position: relative;
+}
+.centerB .zhong .ct7 span{
+	position:absolute;
+	top: 11px;
+	left:3px;
+	color: #3E3E3E;
+}
+.centerB .xia{
+	height: 52px;
+	border: 1px solid #D8D8D8;
+}
+.centerB .xia p{
+	height: 52px;
+	width: 318px;
+	float: right;
+	line-height: 52px;
+}
+.centerB .xia p span{
+	padding-left: 43px;
+	color: #FF79B4;
+}
+.di{
+	height: 62px;
+	line-height: 62px;
+	background: #F3F3F3;
+	padding-left: 25px;
+	border: 1px solid #EEEEEE;
+	margin-bottom: 10px;
+}
+.di ul li{
+	display: inline-block;
+	height: ;
+	width: ;
+}
+.di ul .zuihou input{
+	width:125px;
+	height: 40px;
+	background: #FF5482;
+	border-radius: 8%;
+}
