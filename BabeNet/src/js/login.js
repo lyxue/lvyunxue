@@ -1,4 +1,4 @@
-jQuery(function($){
+﻿jQuery(function($){
 	var $dlogin = $(".Dlogin");   //立即注册
 	var $put1 = $(".put1");		//用户名
 	var $put2 = $(".put2");		//密码	
@@ -111,7 +111,7 @@ jQuery(function($){
 						$.cookie("username", $_uname, {
 							path: '/'
 						});
-						location.href="../bbb.html";
+						location.href="../index.html";
 					}
 				}else if(res=="buxing"){
 					alert("信息不正确 ，请核对后在输入");
